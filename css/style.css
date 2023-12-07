@@ -36,3 +36,24 @@ section > p {
     color: #3F4249;
     font-size: 18px;
 }
+
+/* Cards sections*/
+
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.business-card {
+    width: 430px;
+    height: 120px;
+
+    background-color: red;
+}
+
+.img-card {
+    height: 120px;
+    float: left;
+}
+
