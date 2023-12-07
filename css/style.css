@@ -16,7 +16,7 @@ background-color: #FFFFFE;
 /* Rules for Header and Main */
 
 header, main {
-    width: 70%;
+    width: 70vw;
     margin: 0 auto;
     margin-bottom: 60px;
 }
@@ -28,7 +28,7 @@ h1 {
 
     padding-top: 15px;
     
-    font-size: 38px;
+    font-size: 3vw;
     color: #E53C70;
     font-weight: 900; 
 }
@@ -46,7 +46,7 @@ section > p {
     padding-left: 6px;
 
     color: #3F4249;
-    font-size: 18px;
+    font-size: 1.3vw;
 }
 
 /* Cards sections*/
@@ -89,7 +89,7 @@ img + div {
 
     color: white;
     font-weight: bolder;
-    font-size: 18px;
+    font-size: 1.2vw;
 }
 
 .business-role {
@@ -100,6 +100,7 @@ img + div {
 
     color: white;
     font-style: italic;
+    font-size: 1.1vw;
     
 }
 
@@ -111,5 +112,5 @@ a:last-child {
 
     color:#57C4F0;
     text-decoration: none;
-    font-size: 0.8em;
+    font-size: 0.9vw;
 }
