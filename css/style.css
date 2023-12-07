@@ -7,6 +7,12 @@
     font-family: 'Nunito', sans-serif;
 }
 
+/* Color background landing */
+
+body {
+background-color: #FFFFFE;
+}
+
 /* Rules for Header and Main */
 
 header, main {
@@ -43,12 +49,6 @@ section > p {
 
 /* Cards sections*/
 
-.clearfix::after {
-    content: '';
-    display: table;
-    clear: both;
-}
-
 .business-card {
     width: calc(100% / 3 - 10px);
     height: 120px;
@@ -58,7 +58,13 @@ section > p {
     margin-left: 10px;
     margin-bottom: 10px;
 
-    background-color: red;
+    background-color: #0F0E17;
+}
+
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
 }
 
 /* Style Business cards */
@@ -75,3 +81,13 @@ section > p {
 
 }
 
+.business-role {
+    color: white;
+    font-style: italic;
+}
+
+a:last-child {
+    color:#57C4F0;
+    text-decoration: none;
+    font-size: 0.8em;
+}
