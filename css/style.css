@@ -59,6 +59,7 @@ section > p {
     margin-bottom: 50px;
 
     background-color: #0F0E17;
+    box-shadow: 2px 4px 4px 2px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .clearfix::after {
