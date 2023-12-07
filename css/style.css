@@ -69,6 +69,12 @@ section > p {
 
 /* Style Business cards */
 
+#rino {
+    position: relative;
+    left: 5%;
+    top: 10%;
+}
+
 .img-card {
     height: 120px;
     float: left;
@@ -77,16 +83,19 @@ section > p {
 .name {
     color: white;
     font-weight: bolder;
-    padding: 20px;
-
 }
 
 .business-role {
+    padding-top: 8px;
+
     color: white;
     font-style: italic;
+    
 }
 
 a:last-child {
+    padding-top: 12px;
+
     color:#57C4F0;
     text-decoration: none;
     font-size: 0.8em;
