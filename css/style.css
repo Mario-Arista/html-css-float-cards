@@ -12,6 +12,7 @@
 header, main {
     width: 60%;
     margin: 0 auto;
+    margin-bottom: 60px;
 }
 
 /* Header Style */
@@ -21,7 +22,17 @@ h1 {
 
     padding-top: 15px;
     
-    font-size: 32px;
+    font-size: 38px;
     color: #E53C70;
     font-weight: 900; 
+}
+
+/* Paragraph Style */
+
+section > p {
+
+    text-align: center;
+
+    color: #3F4249;
+    font-size: 18px;
 }
