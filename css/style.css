@@ -6,3 +6,22 @@
     box-sizing: border border-box;
     font-family: 'Nunito', sans-serif;
 }
+
+/* Rules for Header and Main */
+
+header, main {
+    width: 60%;
+    margin: 0 auto;
+}
+
+/* Header Style */
+
+h1 {
+    text-align: center;
+
+    padding-top: 15px;
+    
+    font-size: 32px;
+    color: #E53C70;
+    font-weight: 900; 
+}
