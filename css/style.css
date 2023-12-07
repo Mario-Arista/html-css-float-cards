@@ -43,6 +43,8 @@ section > p {
 
     text-align: center;
 
+    padding-left: 6px;
+
     color: #3F4249;
     font-size: 18px;
 }
@@ -70,7 +72,7 @@ section > p {
 
 /* Style Business cards */
 
-#rino {
+img + div {
     position: relative;
     left: 5%;
     top: 10%;
