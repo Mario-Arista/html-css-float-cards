@@ -83,6 +83,7 @@ section > p {
 .name {
     color: white;
     font-weight: bolder;
+    font-size: 18px;
 }
 
 .business-role {
