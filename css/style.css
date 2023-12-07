@@ -10,7 +10,7 @@
 /* Rules for Header and Main */
 
 header, main {
-    width: 60%;
+    width: 70%;
     margin: 0 auto;
     margin-bottom: 60px;
 }
@@ -29,6 +29,10 @@ h1 {
 
 /* Paragraph Style */
 
+section:first-of-type {
+    margin-bottom: 60px;
+}
+
 section > p {
 
     text-align: center;
@@ -46,14 +50,28 @@ section > p {
 }
 
 .business-card {
-    width: 430px;
+    width: calc(100% / 3 - 10px);
     height: 120px;
+
+    float: left;
+
+    margin-left: 10px;
+    margin-bottom: 10px;
 
     background-color: red;
 }
 
+/* Style Business cards */
+
 .img-card {
     height: 120px;
     float: left;
+}
+
+.name {
+    color: white;
+    font-weight: bolder;
+    padding: 20px;
+
 }
 
